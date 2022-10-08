@@ -1,11 +1,11 @@
-<div {
+div {
     width: 1600px;
     margin: 0 auto;
  }
 nav a {
     text-align: center;
     color:black;
-    text-decoration;: none
+    text-decoration: none;
 }
 nav a:hover {
     color:black
@@ -73,4 +73,3 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
-</div>
