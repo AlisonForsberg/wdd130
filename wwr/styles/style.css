@@ -2,7 +2,6 @@
     width: 1600px;
     margin: 0 auto;
  }
- </div>
 nav a {
     text-align: center;
     color:black;
@@ -74,3 +73,4 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
+</div>
