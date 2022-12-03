@@ -1,62 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Nunito:wght@600&family=Varela+Round&display=swap');
-
-header {
-    font-size: 50px;
+head {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
 }
-.home-title {
-    font-family: "Varela Round";
-    font-size: 2em;
-    margin-top: 10px;
-    grid-column: 2/3;
-    grid-row: 1;
-    color: black;
-   }
-body {
-    background-color: white;
-    font-family: "Garamond", sans-serif;
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
-   }
 .logo {
-    width: 55px;
-    margin-right: 100%;
-    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-area: 1, 1;
+    width: 70px;
 }
 #logo_link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
-.bordercollie {
-    width: 40%;
-    grid-column: 4;
-    grid-row: 2;
+header {
+    font-size: 50px;
 }
+.home-title {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-area: 9;
+    font-family: "Varela Round";
+    font-size: 50px;
+    color: black;
+   }
+.bordercollie {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-area: 10;
+    width: 30%;
+}
+h4 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-area: 9;
+    font-family: "Varela Round";
+    font-size: 30px;
+    color: black;
+}
+body {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    background-color: white;
+    font-family: "Garamond", sans-serif;
+    font-size: 18px;
+    text-indent: 10%;
+    grid-area: 14, 15, 16, 17, 20, 21, 22, 23,;
+   }
 .dogface {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     width: 27em;
 }
 .btn-group button {
-    background-color: #396E94; /* Green background */
-    border: 1px solid black; /* Green border */
-    color: white; /* White text */
-    padding: 10px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    float: left; /* Float the buttons side by side */
-  }
-  
-  .btn-group button:not(:last-child) {
-    border-right: none; /* Prevent double borders */
-  }
-  
-  /* Clear floats (clearfix hack) */
-  .btn-group:after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  /* Add a background color on hover */
-  .btn-group button:hover {
+    color: white;
+    font: "Garamond", sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    float: left;
     background-color: #396E94;
-  }
+    grid-row: 1;
+    grid-column: 1;
+}
