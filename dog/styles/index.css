@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Nunito:wght@600&family=Varela+Round&display=swap');
-head {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-}
+
 .logo {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
     width: 70px;
 }
 #logo_link {
@@ -15,47 +11,60 @@ head {
     justify-self: center;
     align-self: center;
 }
-header {
-    font-size: 50px;
+.nav {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 0px 0px 0px;
+    position: fixed;
+    font-size: 18px;
+    font-family: "Varela Round";
+    color: #0978A1;
+    width: 100%;
+    height: 700px;
 }
 .home-title {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-area: 9;
+    text-align: center;
+    margin-right: 425px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     font-family: "Varela Round";
-    font-size: 50px;
-    color: black;
-   }
-.bordercollie {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-area: 10;
-    width: 30%;
+    font-size: 65px;
+    color: #0978A1;
+    background-image: url("images/bordercollie.jpg");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: right center;
 }
-h4 {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-area: 9;
-    font-family: "Varela Round";
-    font-size: 30px;
-    color: black;
-}
-body {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+main {
     background-color: white;
+    padding-top: 75px;
     font-family: 'Times New Roman', Times, serif, sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     text-indent: 10%;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .dogface {
-    display: block;
     margin-right: auto;
     margin-left: auto;
     width: 27em;
+    padding-top: 150px;
 }
-
+footer {
+    display:block;
+    padding: 25px 50px;
+    margin-top: 200px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #7CED3B;
+   }
+   footer p {
+    font-size: 1.2em;
+   }
+   footer p a:hover {
+    text-decoration: underline;
+   }
+   footer .social img {
+    padding-top: 15px;
+   }
