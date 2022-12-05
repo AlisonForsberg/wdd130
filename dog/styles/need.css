@@ -27,7 +27,7 @@
     font-size: 65px;
     color: #0978A1;
     font-family: "Varela Round";
-    position: center;
+    align: center;
 }
 h1 {
     font-size: 20px;
@@ -46,7 +46,8 @@ ol {
     list-style-type: disc;
 }
 li {
-    font-display: bold;
+    text-decoration: underline;
+    font-weight: bold;
 }
 footer {
     display:block;
